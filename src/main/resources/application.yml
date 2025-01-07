@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: webGuardian
+  datasource:
+    url: jdbc:mariadb://localhost:5537/guardian2021
+    username: guard
+    password: gonFreecss@1030
+    driver-class-name: org.mariadb.jdbc.Driver
+
+server:
+  port: 8080
